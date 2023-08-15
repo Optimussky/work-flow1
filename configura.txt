@@ -1,0 +1,2 @@
+# Archivo para guardar el seguimiento y posibles configuraciones.
+
