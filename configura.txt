@@ -40,8 +40,25 @@
 	git commit -m "first commit"
 	git push
 
-	## En caso de no poderse realizar el siguiente comando y volver a ejecutar los 3 pasos anteriores
+## En caso de no poderse realizar el siguiente comando y volver a 
+## Ejecutar los 3 pasos anteriores:
 	git push --set-upstream origin file-configure-feature
+
+## Unir las ramas desde la rama principal:
+# Garantizar que estoy en la rama principal:
+
+	git checkout main
+	git merge html-feature
+	git checkout main
+	git merge file-configure-feature
+	git checkout main
+	git merge styles-css-feature
+	git checkout main
+	git merge app-js-feature
+	git checkout main
+
+	# hacer push de las ramas, cuando ya se hayan hecho las pruebas previas
+	git push origin main
 
 
 
