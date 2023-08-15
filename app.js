@@ -4,7 +4,3 @@ function cambiarColor(evt) {
    alert("Botón presionado exitosamente");
   }
 
-
-  cambiarColor()
-
-
