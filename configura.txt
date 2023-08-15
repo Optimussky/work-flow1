@@ -64,3 +64,7 @@
 	git branch -b nombre-nueva-rama
 	git branch -D nombre-rama-a-borrar
 
+
+### Cómo borrar una branch de Git en ambos repositorios: local y remoto
+	
+	https://www.freecodecamp.org/espanol/news/como-borrar-una-branch-de-git-en-ambos-repositorios-local-y-remoto/
