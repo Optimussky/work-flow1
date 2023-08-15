@@ -36,6 +36,11 @@
 
 ## Para subir los cambios desde file-configure-feature es necesario usar el comando
 
+	git status
+	git commit -m "first commit"
+	git push
+
+	## En caso de no poderse realizar el siguiente comando y volver a ejecutar los 3 pasos anteriores
 	git push --set-upstream origin file-configure-feature
 
 
