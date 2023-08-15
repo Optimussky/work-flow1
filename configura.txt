@@ -34,5 +34,9 @@
 ###			SUBIR LOS PRIMEROS CAMBIOS DE file-configure-feature
 ### Cambiar a la rama "file-configure-feature" para subir el primer commit
 
+## Para subir los cambios desde file-configure-feature es necesario usar el comando
+
+	git push --set-upstream origin file-configure-feature
+
 
 
