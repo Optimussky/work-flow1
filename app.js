@@ -1,9 +1,4 @@
-//app.js
-function cambiarColor() {
+function cambiarColor(evt) {
+	evt.preventDefault();
    alert("Botón presionado exitosamente");
   }
-
-
-  cambiarColor()
-
-
