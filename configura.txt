@@ -1,2 +1,47 @@
 # Archivo para guardar el seguimiento y posibles configuraciones.
 
+# 		CREACIÓN DE RAMAS
+## GARANTIZAR QUE ME ENCUENTRO EN LA RAMA main o princiipal
+	git checkout main
+
+## CREAR RAMA "html-feature"
+	git checkout -b html-feature
+
+## REGRESAR A RAMA PRINCIPAL
+	git checkout main
+
+## CREAR RAMA "app-js-feature"
+	git checkout -b app-js-feature
+
+## REGRESAR A RAMA PRINCIPAL
+	git checkout main
+
+## CREAR RAMA "app-js-feature"
+	git checkout -b app-js-feature
+
+## REGRESAR A RAMA PRINCIPAL
+	git checkout main
+
+## CREAR RAMA "app-js-feature"
+	git checkout -b styles-css-feature
+
+## REGRESAR A RAMA PRINCIPAL
+	git checkout main
+
+## CREAR RAMA "app-js-feature"
+	git checkout -b file-configure-feature
+
+###			SUBIR LOS PRIMEROS CAMBIOS DE file-configure-feature
+### Cambiar a la rama "file-configure-feature" para subir el primer commit
+
+## Para subir los cambios desde file-configure-feature es necesario usar el comando
+
+	git status
+	git commit -m "first commit"
+	git push
+
+	## En caso de no poderse realizar el siguiente comando y volver a ejecutar los 3 pasos anteriores
+	git push --set-upstream origin file-configure-feature
+
+
+
