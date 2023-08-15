@@ -60,5 +60,7 @@
 	# hacer push de las ramas, cuando ya se hayan hecho las pruebas previas
 	git push origin main
 
-
+## CREAR Y BORRAR UNA RAMA, Asumiendo que estamos en la rama principal
+	git branch -b nombre-nueva-rama
+	git branch -D nombre-rama-a-borrar
 
